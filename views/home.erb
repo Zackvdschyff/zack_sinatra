@@ -11,15 +11,46 @@
     <link href="/css/style.min.css" rel="stylesheet">
   </head>
   <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <!--want to insert svg -->
+        <a class="navbar-brand" href="#page-top">iXperience</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Introduction to Ruby</a>
+                  <a class="dropdown-item" href="#">Basic Website</a>
+                  <a class="dropdown-item" href="#">Object Orientated</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Curriculum Overview</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of nav -->
   <div class ="master">
         <div class="header">
           <div class="container">
             <div class="row fill-viewport align-items-center">
                 <div class="col-lg-8 mx-auto text-center">
                     <h1 class="brand-heading text-center">i_X CodeSchool</h1>
-                    <hr>
+                      <div class="hr"></div>
                     <p class="intro-text">Reimagine.Working</p>
-                </div>
             </div>
           </div>
        </div>
@@ -27,6 +58,7 @@
           <div class="container">
             <div class ="row">
               <div class="col-lg-12 text-center">
+              <h4 class="sign-up text-center"> Sign Up with the form below:<h4>
               <form action="/dynamic" method="post">
                 <fieldset>
                   <label for="full_name">Name</label>
@@ -44,8 +76,78 @@
               </form>
             </div>
           </div>
+         </div>
         </div>
-        </div>
+              <!-- Services -->
+         <section id="services" class="services bg-primary text-white">
+           <div class="container">
+             <div class="row text-center">
+               <div class="col-lg-10 mx-auto">
+                 <h2>What we do:</h2>
+                 <hr class="small">
+                 <div class="row">
+                   <div class="col-md-3 col-sm-6">
+                     <div class="service-item">
+                       <span class="fa-stack fa-4x">
+                         <i class="fa fa-circle fa-stack-2x"></i>
+                         <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                       </span>
+                       <h4>
+                         <strong>Set goals:</strong>
+                       </h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <a href="#" class="btn btn-light">Learn More</a>
+                     </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                     <div class="service-item">
+                       <span class="fa-stack fa-4x">
+                         <i class="fa fa-circle fa-stack-2x"></i>
+                         <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                       </span>
+                       <h4>
+                         <strong>Perform</strong>
+                       </h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <a href="#" class="btn btn-light">Learn More</a>
+                     </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                     <div class="service-item">
+                       <span class="fa-stack fa-4x">
+                         <i class="fa fa-circle fa-stack-2x"></i>
+                         <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                       </span>
+                       <h4>
+                         <strong>Advance Business</strong>
+                       </h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <a href="#" class="btn btn-light">Learn More</a>
+                     </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                     <div class="service-item">
+                       <span class="fa-stack fa-4x">
+                         <i class="fa fa-circle fa-stack-2x"></i>
+                         <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                       </span>
+                       <h4>
+                         <strong>Ideate</strong>
+                       </h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <a href="#" class="btn btn-light">Learn More</a>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- /.row (nested) -->
+               </div>
+               <!-- /.col-lg-10 -->
+             </div>
+             <!-- /.row -->
+           </div>
+           <!-- /.container -->
+         </section>
+
   </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
