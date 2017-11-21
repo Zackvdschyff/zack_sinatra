@@ -22,3 +22,7 @@ end
 get '/builder' do
   erb :builder
 end
+
+get '/transact' do
+  erb :transact
+end

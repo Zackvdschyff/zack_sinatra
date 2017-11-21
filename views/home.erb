@@ -1,247 +1,244 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>iXCodeSchool</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<head>
+  <title>iXCodeSchool</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/iconic-bootstrap.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <!--want to insert svg -->
+      <a class="navbar-brand" href="http://ixperience.co.za">iXperience</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Introduction to Ruby</a>
+              <a class="dropdown-item" href="#">Basic Website</a>
+              <a class="dropdown-item" href="#">Object Orientated</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Curriculum Overview</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end of nav -->
+  <header class="masthead" id="head">
+    <div class="intro-text">
+      <h1>i_X CodeSchool</h1>
+      <hr class="hr">
+      <h2>Reimagine. Working</h2>
+    </div>
+  </header>
+
+  <section class="sign_up">
+    <div class="form" "col-lg-8 col-lg-offset-4">
       <div class="container">
-        <!--want to insert svg -->
-        <a class="navbar-brand" href="http://ixperience.co.za">iXperience</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Introduction to Ruby</a>
-                  <a class="dropdown-item" href="#">Basic Website</a>
-                  <a class="dropdown-item" href="#">Object Orientated</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Curriculum Overview</a>
-                </div>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class ="row">
+          <div class="col-lg-12 text-center">
+            <h4>Sign Up with the form below:<h4>
+              <hr class="hr">
+              <form action="/dynamic" method="post">
+                <fieldset>
+                  <label for="full_name">Name:   </label>
+                  <input type="text" name="full_name" placeholder="John Smith" id="full_name" required/>
+                  <br>
+                  <label for="email">Email:   </label>
+                  <input type="email" name="email" input type="text" id="email" required/>
+                  <br>
+                  <label for="phone">Phone:   </label>
+                  <input type="tel" name="phone" pattern="[0-9]{10}" id ="phone" required/>
+                  <br>
+                  <br>
+                  <input class="btn btn-outline" type="submit" value="Submit">
+                </a>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
-    </nav>
-    <!--end of nav -->
-    <header class="masthead" id="head">
-        <div class="intro-text">
-          <h1>i_X CodeSchool</h1>
+    </div>
+  </section>
+  <!-- Services -->
+  <div class="services">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-10 mx-auto">
+          <h2>What we do:</h2>
           <hr class="hr">
-          <h2> Reimagine. Working </h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="item1">
+                <h4>
+                  <strong>Set goals:</strong>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-outline">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="item2">
+                <h4>
+                  <strong>Perform</strong>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-outline">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="item3">
+                <h4>
+                  <strong>Advance</strong>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-outline">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="item4">
+                <h4>
+                  <strong>Ideate</strong>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-outline">Learn More</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+  </div>
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container">
+        <h5>Learn slow.<br>Forget slow.</h5>
+        <br>
+        <a href="#contact" class="btn btn-light">Let's Get Started.</a>
+      </div>
+    </div>
+  </section>
 
-        <section class ="sign_up">
-          <div class="form" "col-lg-8 col-lg-offset-4">
-            <div class="container">
-              <div class ="row">
-                <div class="col-lg-12 text-center">
-                <h4>Sign Up with the form below:<h4>
-                <hr class="hr">
-                <form action="/dynamic" method="post">
-                  <fieldset>
-                    <label for="full_name">Name:   </label>
-                    <input type="text" name="full_name" placeholder="John Smith" id="full_name" required/>
-                    <br>
-                    <label for="email">Email:   </label>
-                    <input type="email" name="email" input type="text" id="email" required/>
-                    <br>
-                    <label for="phone">Phone:   </label>
-                    <input type="tel" name="phone" pattern="[0-9]{10}" id ="phone" required/>
-                    <br>
-                    <br>
-                      <input class="btn btn-outline" type="submit" value="Submit">
-                    </a>
-                  </fieldset>
-                </form>
+  <section class="features">
+    <div class="section-heading text-center">
+      <h1>New app. Coming soon!</h1>
+      <p class="text-muted">Check out how you'll be connected with i_X like never before</p>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 my-auto">
+        <div class="device-container">
+          <div class="device-mockup iphone6_plus portrait white">
+            <div class="device">
+              <div class="screen">
+                <img src="/phone.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="button">
               </div>
             </div>
-           </div>
-          </div>
-        </section>
-        <!-- Services -->
-         <div class="services">
-           <div class="container">
-             <div class="row text-center">
-               <div class="col-lg-10 mx-auto">
-                 <h2>What we do:</h2>
-                 <hr class="hr">
-                 <div class="row">
-                   <div class="col-md-3 col-sm-6">
-                     <div class="item1">
-                       <h4>
-                         <strong>Set goals:</strong>
-                       </h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                       <a href="#" class="btn btn-outline">Learn More</a>
-                     </div>
-                   </div>
-                   <div class="col-md-3 col-sm-6">
-                     <div class="item2">
-                       <h4>
-                         <strong>Perform</strong>
-                       </h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                       <a href="#" class="btn btn-outline">Learn More</a>
-                     </div>
-                   </div>
-                   <div class="col-md-3 col-sm-6">
-                     <div class="item3">
-                       <h4>
-                         <strong>Advance Business</strong>
-                       </h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                       <a href="#" class="btn btn-outline">Learn More</a>
-                     </div>
-                   </div>
-                   <div class="col-md-3 col-sm-6">
-                     <div class="item4">
-                       <h4>
-                         <strong>Ideate</strong>
-                       </h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                       <a href="#" class="btn btn-outline">Learn More</a>
-                     </div>
-                   </div>
-                   <div class=>
-                 </div>
-               </div>
-             </div>
-           </div>
           </div>
         </div>
-        <section class="cta">
-            <div class="cta-content">
-              <div class="container">
-                <h5>Learn slow.<br>Forget slow.</h5>
-                <br>
-                <a href="#contact" class="btn btn-light">Let's Get Started.</a>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <img src="/open-iconic-master/svg/aperture.svg">
+                <h3>Stay connected</h3>
+                <p class="text-muted">Meet your fellow Alumni at iX sponsored events</p>
               </div>
             </div>
-          </section>
-
-          <section class="features">
-              <div class="section-heading text-center">
-                <h1>New app. Coming soon!</h1>
-                <p class="text-muted">Check out how you'll be connected with i_X like never before</p>
-                <hr>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 my-auto">
-                  <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                      <div class="device">
-                        <div class="screen">
-                          <img src="/phone.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="button">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-8 my-auto">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="feature-item">
-                          <img src="/open-iconic-master/svg/aperture.svg">
-                          <h3>Stay connected</h3>
-                          <p class="text-muted">Meet your fellow Alumni at iX sponsored events</p>
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="feature-item">
-                          <img src="/open-iconic-master/svg/loop-circular.svg">
-                          <h3>Revisit Your skills</h3>
-                          <p class="text-muted">Get access to all of your course content</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="feature-item">
-                          <img src="/open-iconic-master/svg/heart.svg">
-                          <h3>Show some love</h3>
-                          <p class="text-muted">Stay up to date with iX newsletters</p>
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="feature-item">
-                          <img src="/open-iconic-master/svg/infinity.svg">
-                          <h3>Endless opportunities</h3>
-                          <p class="text-muted">Find teaching opportunities and keep up to date with our international expansion!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <img src="/open-iconic-master/svg/loop-circular.svg">
+                <h3>Revisit Your skills</h3>
+                <p class="text-muted">Get access to all of your course content</p>
               </div>
             </div>
-          </section>
-
-
-
-          <footer class="text-center">
-            <div class="footer-above">
-              <div class="container">
-                <div class="row">
-                  <div class="footer-col col-md-4">
-                    <h4>Locations</h4>
-                    <br>
-                    <p>Cape Town, South Africa
-                      <br>Lisbon,Portugal</p>
-                  </div>
-                  <div class="footer-col col-md-4">
-                    <img src="/open-iconic-master/svg/globe.svg">
-                  </div>
-                  <div class="footer-col col-md-4">
-                    <h4>About i_X CodeSchool</h4>
-                    <br>
-                    <p>i_X CodeSchool is an employee initiative spreading the love of coding.
-                      <a href="http://ixperience.co.za">Start Coding</a>.</p>
-                  </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <img src="/open-iconic-master/svg/heart.svg">
+                <h3>Show some love</h3>
+                <p class="text-muted">Stay up to date with iX newsletters</p>
               </div>
             </div>
-            <div class="footer-below">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12">
-                    Copyright &copy; iXperience 2017
-                  </div>
-                </div>
+            <div class="col-lg-6">
+              <div class="feature-item">
+                <img src="/open-iconic-master/svg/infinity.svg">
+                <h3>Endless opportunities</h3>
+                <p class="text-muted">Find teaching opportunities and keep up to date with our international expansion!</p>
               </div>
             </div>
-          </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h4>Locations</h4>
+            <br>
+            <p>Cape Town, South Africa
+              <br>Lisbon,Portugal
+            </p>
+          </div>
+          <div class="footer-col col-md-4">
+            <img src="/open-iconic-master/svg/globe.svg">
+          </div>
+          <div class="footer-col col-md-4">
+            <h4>About i_X CodeSchool</h4>
+            <br>
+            <p>i_X CodeSchool is an employee initiative spreading the love of coding.
+              <a href="http://ixperience.co.za">Start Coding</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-below">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            Copyright &copy; iXperience 2017
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </html>

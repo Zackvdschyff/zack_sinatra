@@ -47,6 +47,23 @@
         </div>
       </div>
     </header>
+
+    <form action="/dynamic" method="post">
+      <fieldset>
+        <label for="full_name">Name:   </label>
+        <input type="text" name="full_name" placeholder="John Smith" id="full_name" required/>
+        <br>
+        <label for="email">Email:   </label>
+        <input type="email" name="email" input type="text" id="email" required/>
+        <br>
+        <label for="phone">Phone:   </label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" id ="phone" required/>
+        <br>
+        <br>
+          <input class="btn btn-outline" type="submit" value="Submit">
+        </a>
+      </fieldset>
+    </form>
     <!-- Header end -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
